@@ -58,7 +58,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     })
     .state('tab.course-detail', {
-      url: '/courses/:CourseId',
+      url: '/courses/:courseId',
       views: {
         'tab-courses': {
           templateUrl: 'templates/course-detail.html',

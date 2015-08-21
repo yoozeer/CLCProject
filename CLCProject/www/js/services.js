@@ -11,25 +11,31 @@ angular.module('starter.services', [])
     image: 'img/pd.jpg'
   }, {
     id: 1,
-    courseName: 'Profesional development',
-    shortDescription: 'You on your way?',
-    image: 'img/pd.jpg'
+    courseName: 'Software QA Boot camp',
+    shortDescription: 'A 10-day course designed to help people with an engineering or IT background dive into the world of Software Quality Assurance',
+    image: 'img/software-boothcamp1.png'
   }, {
     id: 2,
-    courseName: 'Andrew Jostlin',
-    shortDescription: 'Did you get the ice cream?',
-    image: 'https://pbs.twimg.com/profile_images/491274378181488640/Tti0fFVJ.jpeg'
+    courseName: 'Introduction to Java',
+    shortDescription: 'An entry-level course to core Java to get you up and running on 1 of the most widely …',
+    image: 'img/java1.png'
   }, {
     id: 3,
-    courseName: 'Adam Bradleyson',
-    shortDescription: 'I should buy a boat',
-    image: 'https://pbs.twimg.com/profile_images/479090794058379264/84TKj_qa.jpeg'
+    courseName: 'Photoshop Essentials',
+    shortDescription: 'An intermediate-level course on Photoshop, this provides participants with a detailed look at the most used and most …',
+    image: 'img/photoshop1.png'
   }, {
     id: 4,
-    courseName: 'Perry Governor',
-    shortDescription: 'Look at my mukluks!',
-    image: 'https://pbs.twimg.com/profile_images/491995398135767040/ie2Z_V6e.jpeg'
-  }];
+    courseName: 'Advanced Web Development Program',
+    shortDescription: 'This course includes everything covered in the Web Designing Program, and also adds coverage of PHP and MySQL. …',
+    image: 'img/IT21.png'
+  }, {
+    id: 5,
+    courseName: 'Web Designing Program',
+    shortDescription: 'The Web Designing course is a mid-duration course designed to provide complete coverage of such technologies as HTML5, …',
+    image: 'img/webdesign1.png'
+  }
+  ];
 
   return {
     all: function() {
