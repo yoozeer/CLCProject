@@ -2,15 +2,15 @@ angular.module('starter.controllers', [])
 
 .controller('DashCtrl', function($scope) {})
 
-.controller('CoursesCtrl', function($scope, Chats) {
+.controller('CoursesCtrl', function($scope, Courses) {
   $scope.courses = Courses.all();
-  $scope.remove = function(chat) {
-    Courses.remove(chat);
+  $scope.remove = function(course) {
+    Courses.remove(course);
   }
 })
 
-.controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
-  $scope.chat = Chats.get($stateParams.chatId);
+.controller('CourseDetailCtrl', function($scope, $stateParams, Courses) {
+  $scope.course = Courses.get($stateParams.courseId);
 })
 
 .controller('AccountCtrl', function($scope) {

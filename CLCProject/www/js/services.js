@@ -8,12 +8,12 @@ angular.module('starter.services', [])
     id: 0,
     courseName: 'Profesional development',
     shortDescription: 'You on your way?',
-    image: 'images/pd.jpg'
+    image: 'img/pd.jpg'
   }, {
     id: 1,
     courseName: 'Profesional development',
     shortDescription: 'You on your way?',
-    image: 'images/pd.jpg'
+    image: 'img/pd.jpg'
   }, {
     id: 2,
     courseName: 'Andrew Jostlin',
@@ -36,7 +36,7 @@ angular.module('starter.services', [])
       return courses;
     },
     remove: function(course) {
-      courses.splice(course.indexOf(course), 1);
+      courses.splice(courses.indexOf(course), 1);
     },
     get: function(courseId) {
       for (var i = 0; i < courses.length; i++) {
