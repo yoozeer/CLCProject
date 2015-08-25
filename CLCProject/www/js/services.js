@@ -34,6 +34,11 @@ angular.module('starter.services', [])
     courseName: 'Web Designing Program',
     shortDescription: 'The Web Designing course is a mid-duration course designed to provide complete coverage of such technologies as HTML5, …',
     image: 'img/webdesign1.png'
+  }, {
+    id: 6,
+    courseName: 'HTML5',
+    shortDescription: 'An introduction course to HTML5, CSS3 and JQuery to get you started on <br> multi-platform and multi-device development Modules/Learning …',
+    image: 'img/HTML51.png'
   }
   ];
 
