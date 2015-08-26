@@ -196,3 +196,4 @@ FakesAssemblies/
 *.opt
 /CLCProject/.io-config.json
 /CLCProject/ionic.project
+/CLCProject/platforms/
