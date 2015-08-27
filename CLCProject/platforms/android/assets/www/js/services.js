@@ -1,47 +1,58 @@
 angular.module('starter.services', [])
 
-.factory('Chats', function() {
+.factory('Courses', function() {
   // Might use a resource here that returns a JSON array
 
   // Some fake testing data
-  var chats = [{
+  var courses = [{
     id: 0,
-    name: 'Ben Sparrow',
-    lastText: 'You on your way?',
-    face: 'https://pbs.twimg.com/profile_images/514549811765211136/9SgAuHeY.png'
+    courseName: 'Profesional development',
+    shortDescription: 'You on your way?',
+    image: 'img/pd.jpg'
   }, {
     id: 1,
-    name: 'Max Lynx',
-    lastText: 'Hey, it\'s me',
-    face: 'https://avatars3.githubusercontent.com/u/11214?v=3&s=460'
+    courseName: 'Software QA Boot camp',
+    shortDescription: 'A 10-day course designed to help people with an engineering or IT background dive into the world of Software Quality Assurance',
+    image: 'img/software-boothcamp1.png'
   }, {
     id: 2,
-    name: 'Andrew Jostlin',
-    lastText: 'Did you get the ice cream?',
-    face: 'https://pbs.twimg.com/profile_images/491274378181488640/Tti0fFVJ.jpeg'
+    courseName: 'Introduction to Java',
+    shortDescription: 'An entry-level course to core Java to get you up and running on 1 of the most widely …',
+    image: 'img/java1.png'
   }, {
     id: 3,
-    name: 'Adam Bradleyson',
-    lastText: 'I should buy a boat',
-    face: 'https://pbs.twimg.com/profile_images/479090794058379264/84TKj_qa.jpeg'
+    courseName: 'Photoshop Essentials',
+    shortDescription: 'An intermediate-level course on Photoshop, this provides participants with a detailed look at the most used and most …',
+    image: 'img/photoshop1.png'
   }, {
     id: 4,
-    name: 'Perry Governor',
-    lastText: 'Look at my mukluks!',
-    face: 'https://pbs.twimg.com/profile_images/491995398135767040/ie2Z_V6e.jpeg'
-  }];
+    courseName: 'Advanced Web Development Program',
+    shortDescription: 'This course includes everything covered in the Web Designing Program, and also adds coverage of PHP and MySQL. …',
+    image: 'img/IT21.png'
+  }, {
+    id: 5,
+    courseName: 'Web Designing Program',
+    shortDescription: 'The Web Designing course is a mid-duration course designed to provide complete coverage of such technologies as HTML5, …',
+    image: 'img/webdesign1.png'
+  }, {
+    id: 6,
+    courseName: 'HTML5',
+    shortDescription: 'An introduction course to HTML5, CSS3 and JQuery to get you started on <br> multi-platform and multi-device development Modules/Learning …',
+    image: 'img/HTML51.png'
+  }
+  ];
 
   return {
     all: function() {
-      return chats;
+      return courses;
     },
-    remove: function(chat) {
-      chats.splice(chats.indexOf(chat), 1);
+    remove: function(course) {
+      courses.splice(courses.indexOf(course), 1);
     },
-    get: function(chatId) {
-      for (var i = 0; i < chats.length; i++) {
-        if (chats[i].id === parseInt(chatId)) {
-          return chats[i];
+    get: function(courseId) {
+      for (var i = 0; i < courses.length; i++) {
+        if (courses[i].id === parseInt(courseId)) {
+          return courses[i];
         }
       }
       return null;
