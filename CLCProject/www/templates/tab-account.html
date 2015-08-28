@@ -1,9 +1,7 @@
-<ion-view view-title="Account">
-  <ion-content>
-    <ion-list>
-    <ion-toggle  ng-model="settings.enableFriends">
-        Enable Friends
-    </ion-toggle>
-    </ion-list>
-  </ion-content>
+<ion-view view-title="Map">
+
+    <ion-content ng-controller="MapController">
+
+       <div id="map" data-tap-disabled="true" ></div>
+    </ion-content>
 </ion-view>
