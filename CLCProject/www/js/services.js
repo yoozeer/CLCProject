@@ -8,36 +8,43 @@ angular.module('starter.services', [])
     id: 0,
     courseName: 'Profesional development',
     shortDescription: 'You on your way?',
+    longDescription: 'Course Description:',
     image: 'img/pd.jpg'
   }, {
     id: 1,
     courseName: 'Software QA Boot camp',
     shortDescription: 'A 10-day course designed to help people with an engineering or IT background dive into the world of Software Quality Assurance',
+    longDescription: 'Course Description:',
     image: 'img/software-boothcamp1.png'
   }, {
     id: 2,
     courseName: 'Introduction to Java',
     shortDescription: 'An entry-level course to core Java to get you up and running on 1 of the most widely …',
+    longDescription: 'Course Description:',
     image: 'img/java1.png'
   }, {
     id: 3,
     courseName: 'Photoshop Essentials',
     shortDescription: 'An intermediate-level course on Photoshop, this provides participants with a detailed look at the most used and most …',
+    longDescription: 'Course Description:',
     image: 'img/photoshop1.png'
   }, {
     id: 4,
     courseName: 'Advanced Web Development Program',
     shortDescription: 'This course includes everything covered in the Web Designing Program, and also adds coverage of PHP and MySQL. …',
+    longDescription: 'Course Description:',
     image: 'img/IT21.png'
   }, {
     id: 5,
     courseName: 'Web Designing Program',
     shortDescription: 'The Web Designing course is a mid-duration course designed to provide complete coverage of such technologies as HTML5, …',
+    longDescription: 'Course Description:',
     image: 'img/webdesign1.png'
   }, {
     id: 6,
     courseName: 'HTML5',
-    shortDescription: 'An introduction course to HTML5, CSS3 and JQuery to get you started on <br> multi-platform and multi-device development Modules/Learning …',
+    shortDescription: 'An introduction course to HTML5, CSS3 and JQuery to get you started on multi-platform and multi-device development Modules/Learning …',
+    longDescription: 'Course Description:',
     image: 'img/HTML51.png'
   }
   ];

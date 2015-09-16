@@ -6,9 +6,15 @@
 -->
 <ion-view view-title="{{course.courseName}}">
   <ion-content class="padding">
-   <img ng-src="{{course.image}}" style="width: 64px; height: 64px">
-    <p>
+  <ion-item class="item item-image">
+  <img ng-src="{{course.image}}" class="item item-image">
+  </ion-item>
+    <h4>
       {{course.shortDescription}}
+    </h4>
+    <hr>
+    <p>
+      {{course.longDescription}}
     </p>
   </ion-content>
 </ion-view>
