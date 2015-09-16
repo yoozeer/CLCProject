@@ -46,6 +46,18 @@ angular.module('starter.services', [])
     shortDescription: 'An introduction course to HTML5, CSS3 and JQuery to get you started on multi-platform and multi-device development Modules/Learning …',
     longDescription: 'Course Description:',
     image: 'img/HTML51.png'
+  }, {
+    id: 7,
+    courseName: 'DIPLOMA IN INFORMATION TECHNOLOGY',
+    shortDescription: 'The purpose is to provide learners with a wide spectrum of study covering the breadth of Information Technology.',
+    longDescription: 'Course Description:',
+    image: 'img/DIT.jpg'
+  }, {
+    id: 8,
+    courseName: 'BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY (BSC IT)',
+    shortDescription: 'The purpose of Bachelor of Science in Information Technology is to enable the qualifying learner to enter various sub-categories within the Information Technology industry',
+    longDescription: 'Course Description:',
+    image: 'img/BSCIT.jpg'
   }
   ];
 
